@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+  scroll-behavior: smooth;
+  background: #0a192f;
+  color: azure;
+  overflow: auto;
+  /* Dark background for contrast */
+}
+
+
+.active .nav-text {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.active .nav-indicator {
+  background-color: #ffffff;
+  width: 65px;
+}
+

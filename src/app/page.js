@@ -1,5 +1,5 @@
 import Main from "./_components/header";
-import NeonBackground from "./Styles/NeonBackground";
+import NeonBackground from "./_components/NeonBackground";
 
 export default function Home() {
   return (

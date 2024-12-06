@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 
 const NeonBackground = () => {
-  const [isMouseMoveActive, setIsMouseMoveActive] = useState(window.innerWidth > 767);
+  const [isMouseMoveActive, setIsMouseMoveActive] = useState(false);  // Set initial to false
   const [position, setPosition] = useState("0px 0px");
 
   // Function to handle mouse movement
@@ -15,23 +15,26 @@ const NeonBackground = () => {
 
   // Function to handle viewport width change
   const handleResize = () => {
-    setIsMouseMoveActive(window.innerWidth > 767);
+    if (typeof window !== "undefined") {  // Check if `window` is available
+      setIsMouseMoveActive(window.innerWidth > 767);
+    }
   };
 
-  // Set up event listeners
+  // Set up event listeners when the component mounts
   useEffect(() => {
-    if (isMouseMoveActive) {
+    if (typeof window !== "undefined") {
+      setIsMouseMoveActive(window.innerWidth > 767);  // Only run this in the browser
       document.addEventListener("mousemove", handleMouseMove);
-    }
-    return () => {
-      document.removeEventListener("mousemove", handleMouseMove);
-    };
-  }, [isMouseMoveActive]);
+      
+      // Listen for window resize
+      window.addEventListener("resize", handleResize);
 
-  // Listen for window resize
-  useEffect(() => {
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
+      // Cleanup event listeners on component unmount
+      return () => {
+        document.removeEventListener("mousemove", handleMouseMove);
+        window.removeEventListener("resize", handleResize);
+      };
+    }
   }, []);
 
   return (

@@ -25,6 +25,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${inter.variable} ${roboto_mono.variable} antialiased bg-slate-950 leading-relaxed text-slate-400 selection:bg-sky-300 selection:text-sky-900`}>
         {children}
+        <SpeedInsights />
       </body>
     </html>
   );

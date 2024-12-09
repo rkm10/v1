@@ -1,5 +1,6 @@
 import "./globals.css";
 import { Inter, Roboto_Mono } from 'next/font/google'
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const inter = Inter({
   subsets: ['latin'],

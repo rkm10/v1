@@ -1,41 +1,36 @@
 'use client';
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useCallback } from "react";
+import { throttle } from "lodash";
 
 const NeonBackground = () => {
-  const [isMouseMoveActive, setIsMouseMoveActive] = useState(false);  // Set initial to false
+  const [isMouseMoveActive, setIsMouseMoveActive] = useState(false); // Set initial to false
   const [position, setPosition] = useState("0px 0px");
 
   // Function to handle mouse movement
-  const handleMouseMove = (e) => {
-    if (!isMouseMoveActive) return;
-
-    const { clientX: x, clientY: y } = e;
-    setPosition(`${x}px ${y}px`);
-  };
+  const handleMouseMove = useCallback(
+    throttle((e) => {
+      if (!isMouseMoveActive) return;
+      const { clientX: x, clientY: y } = e;
+      setPosition(`${x}px ${y}px`);
+    }, 100), // Throttle mousemove to 100ms
+    [isMouseMoveActive]
+  );
 
   // Function to handle viewport width change
-  const handleResize = () => {
-    if (typeof window !== "undefined") {  // Check if `window` is available
-      setIsMouseMoveActive(window.innerWidth > 767);
-    }
-  };
-
-  // Set up event listeners when the component mounts
-  useEffect(() => {
-    if (typeof window !== "undefined") {
-      setIsMouseMoveActive(window.innerWidth > 767);  // Only run this in the browser
-      document.addEventListener("mousemove", handleMouseMove);
-      
-      // Listen for window resize
-      window.addEventListener("resize", handleResize);
-
-      // Cleanup event listeners on component unmount
-      return () => {
-        document.removeEventListener("mousemove", handleMouseMove);
-        window.removeEventListener("resize", handleResize);
-      };
-    }
+  const handleResize = useCallback(() => {
+    setIsMouseMoveActive(window.innerWidth > 767);
   }, []);
+
+  useEffect(() => {
+    setIsMouseMoveActive(window.innerWidth > 767); // Initial check
+    document.addEventListener("mousemove", handleMouseMove);
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      document.removeEventListener("mousemove", handleMouseMove);
+      window.removeEventListener("resize", handleResize);
+    };
+  }, [handleMouseMove, handleResize]);
 
   return (
     <div
@@ -46,7 +41,6 @@ const NeonBackground = () => {
           rgba(29, 78, 216, 0.15),
           transparent 80%
         )`,
-        transition: "background 0.1s ease",
       }}
     ></div>
   );

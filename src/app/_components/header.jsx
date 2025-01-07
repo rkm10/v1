@@ -157,13 +157,13 @@ function Content() {
               <div className='group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50'>
                 <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block
                lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
-                <header className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2" aria-label="2024 to Present">2023 — Present</header>
+                <header className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2" aria-label="2024 to Present">Oct 2023 — Present </header>
                 <div className="z-10 sm:col-span-6">
                   <h3 className="font-medium leading-snug text-slate-200">
                     <div>
+                      <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
                       <Link className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base" href="https://www.noveloffice.in"
                         target="_blank" rel="noreferrer noopener" aria-label="Senior Frontend Engineer, Accessibility at Klaviyo (opens in a new tab)">
-                        <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
                         <span>Web Developer | <span className="inline-block">Novel Office
                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 
                           group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true">
@@ -176,7 +176,27 @@ function Content() {
                     </div>
                   </h3>
                   <>
-                    <p className="mt-2 text-sm leading-normal">Build and maintain critical components used to construct Novel Office frontend, across the whole product. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility.</p>
+                    <p className="mt-2 text-sm leading-normal">
+                      <span className="font-semibold text-slate-100">-- Booking Application:</span> <br />
+                      • Developed a React.js-based booking component to facilitate room and gaming slot reservations, boosting user
+                      engagement by 25% within three months. <br />
+                      • Implemented a dynamic time-slot visualization feature, ensuring seamless booking experiences and improving
+                      efficiency by 30%. <br />
+                      • Collaborated with backend teams to design and optimize MySQL database schemas, increasing data retrieval
+                      speed by 23%. <br />
+                      • Enhanced responsiveness for desktop and mobile platforms, resulting in a 43% improvement in mobile user
+                      experience. <br />
+                    </p>
+
+                    <p className="mt-2 text-sm leading-normal">
+                      <span className="font-semibold  text-slate-100">-- Websites:</span> <br />
+                      • Optimized performance, raising Google PageSpeed score from 29 to 64, leading to a 47% increase in traffic.<br />
+                      • Utilized GitHub for version control and collaboration, ensuring smooth workflow management across teams.<br />
+                      • Conducted regular testing and debugging to enhance functionality and cross-browser compatibility, improving
+                      overall user experience.<br />
+                      • Designed and customized WordPress themes and plugins to deliver scalable and tailored solutions for content
+                      management and user interfaces.<br />
+                    </p>
                     <ul className="mt-2 flex flex-wrap" aria-label="Technologies used">
                       <li className="mr-1.5 mt-2">
                         <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">JavaScript</div>
@@ -224,7 +244,8 @@ function Content() {
                     </div>
                   </h3>
                   <>
-                    <p className="mt-2 text-sm leading-normal">Build and maintain critical components used to construct Novel Office frontend, across the whole product. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility.</p>
+                    <p className="mt-2 text-sm leading-normal">Build and maintain critical components used to construct Novel Office frontend, across the whole product. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility.
+                    </p>
                     <ul className="mt-2 flex flex-wrap" aria-label="Technologies used">
                       <li className="mr-1.5 mt-2">
                         <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">JavaScript</div>

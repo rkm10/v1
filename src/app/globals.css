@@ -14,6 +14,7 @@ html {
   scroll-behavior: smooth;
   background: #0a192f;
   color: azure;
+  text-align: justify;
   overflow: auto;
   /* Dark background for contrast */
 }

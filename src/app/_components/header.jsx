@@ -41,6 +41,13 @@ export default Main;
 
 
 function Header({ activeSection }) {
+
+  // Add this utility function at the beginning of your component
+  const normalizeSection = (section) => {
+    if (!section) return '';
+    return section.toLowerCase().trim();
+  };
+
   return (
     <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
       <div>
@@ -60,7 +67,7 @@ function Header({ activeSection }) {
               <li key={section}>
                 <Link
                   href={`#${section}`}
-                  className={`group flex items-center py-3 ${activeSection === section ? 'active' : ''
+                  className={`group flex items-center py-3 ${normalizeSection(activeSection) === normalizeSection(section) ? 'active' : ''
                     }`}
                 >
                   <span
@@ -68,7 +75,7 @@ function Header({ activeSection }) {
                 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none`}
                   ></span>
                   <span
-                    className={`nav-text text-xs font-bold uppercase tracking-widest ${activeSection === section
+                    className={`nav-text text-xs font-bold uppercase tracking-widest ${normalizeSection(activeSection) === normalizeSection(section)
                       ? 'text-slate-200'
                       : 'text-slate-500'
                       } group-hover:text-slate-200 group-focus-visible:text-slate-200`}
@@ -102,7 +109,7 @@ function SocialLinks() {
 
 function Content() {
   return (
-    <main id="content" className="pt-24 lg:w-1/2 lg:py-24">
+    <main id="content" className="pt-24 lg:w-1/2 lg:py-24 sm:py-12 py-3">
 
       {/* About */}
       <section id="about" className='mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24' aria-label="About me">
@@ -112,26 +119,26 @@ function Content() {
         </div>
         <div>
           <p className="mb-4">I’m a versatile developer with a knack for building intuitive, performant, and visually engaging web applications. My approach to development is grounded in creating solutions that are not only technically sound but also user-centered and accessible.</p>
-          <p className="mb-4">Currently, I'm a Front-End Engineer at <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="https://www.noveloffice.in/" target="_blank" rel="noreferrer noopener" aria-label="Novel Office (opens in a new tab)">Novel Office</Link>,where I specialize in delivering seamless digital experiences. My work includes developing custom features, refining interfaces, and ensuring the highest level of accessibility for users across platforms.</p>
-          <p className="mb-4">With a background that spans a wide range of technologies, including <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="https://react.dev/" target="_blank" rel="noreferrer noopener" aria-label="React (opens in a new tab)">React</Link>, <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="https://nextjs.org/" target="_blank" rel="noreferrer noopener" aria-label="start-up (opens in a new tab)">Next.js</Link>,
-            <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="#" target="_blank" rel="noreferrer noopener" aria-label="HTML5 (opens in a new tab)"> Nodejs</Link>,
-            <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="#" target="_blank" rel="noreferrer noopener" aria-label="HTML5 (opens in a new tab)"> Expressjs</Link>,
-            <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="#" target="_blank" rel="noreferrer noopener" aria-label="HTML5 (opens in a new tab)"> JavaScript</Link>,
-            <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="#" target="_blank" rel="noreferrer noopener" aria-label="HTML5 (opens in a new tab)"> HTML5</Link>,
-            <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="https://www.css3.info/" target="_blank" rel="noreferrer noopener" aria-label="CSS3 (opens in a new tab)"> CSS3</Link>,
-            <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="https://mui.com/material-ui/" target="_blank" rel="noreferrer noopener" aria-label="material-ui (opens in a new tab)"> Material UI</Link>,
-            <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="#" target="_blank" rel="noreferrer noopener" aria-label="HTML5 (opens in a new tab)"> MySQL</Link>,
-            <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="#" target="_blank" rel="noreferrer noopener" aria-label="HTML5 (opens in a new tab)"> PHP</Link>,
-            <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="#" target="_blank" rel="noreferrer noopener" aria-label="HTML5 (opens in a new tab)"> MongoDB</Link>,
-            <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="#" target="_blank" rel="noreferrer noopener" aria-label="HTML5 (opens in a new tab)"> Firebase</Link>,
-            <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="#" target="_blank" rel="noreferrer noopener" aria-label="HTML5 (opens in a new tab)"> Git</Link>,
-            <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="#" target="_blank" rel="noreferrer noopener" aria-label="HTML5 (opens in a new tab)"> GitHub</Link>,
-            <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="#" target="_blank" rel="noreferrer noopener" aria-label="HTML5 (opens in a new tab)"> Figma</Link>,
-            <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="#" target="_blank" rel="noreferrer noopener" aria-label="HTML5 (opens in a new tab)"> Frappe</Link>,
+          <p className="mb-4">Currently, I'm a Front-End Engineer at <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="https://www.noveloffice.in/" target="_blank" rel="noreferrer noopener" aria-label="Novel Office (opens in a new tab)" style={{ fontFamily: 'cursive' }}>Novel Office</Link>,where I specialize in delivering seamless digital experiences. My work includes developing custom features, refining interfaces, and ensuring the highest level of accessibility for users across platforms.</p>
+          <p className="mb-4">With a background that spans a wide range of technologies, including <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="https://react.dev/" target="_blank" rel="noreferrer noopener" aria-label="React (opens in a new tab)" style={{ fontFamily: 'cursive' }}>React</Link>, <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="https://nextjs.org/" target="_blank" rel="noreferrer noopener" aria-label="start-up (opens in a new tab)" style={{ fontFamily: 'cursive' }}>Next.js</Link>,
+            <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="#" target="_blank" rel="noreferrer noopener" aria-label="HTML5 (opens in a new tab)" style={{ fontFamily: 'cursive' }}> Nodejs</Link>,
+            <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="#" target="_blank" rel="noreferrer noopener" aria-label="HTML5 (opens in a new tab)" style={{ fontFamily: 'cursive' }}> Expressjs</Link>,
+            <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="#" target="_blank" rel="noreferrer noopener" aria-label="HTML5 (opens in a new tab)" style={{ fontFamily: 'cursive' }}> JavaScript</Link>,
+            <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="#" target="_blank" rel="noreferrer noopener" aria-label="HTML5 (opens in a new tab)" style={{ fontFamily: 'cursive' }}> HTML5</Link>,
+            <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="https://www.css3.info/" target="_blank" rel="noreferrer noopener" aria-label="CSS3 (opens in a new tab)" style={{ fontFamily: 'cursive' }}> CSS3</Link>,
+            <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="https://mui.com/material-ui/" target="_blank" rel="noreferrer noopener" aria-label="material-ui (opens in a new tab)" style={{ fontFamily: 'cursive' }}> Material UI</Link>,
+            <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="#" target="_blank" rel="noreferrer noopener" aria-label="HTML5 (opens in a new tab)" style={{ fontFamily: 'cursive' }}> MySQL</Link>,
+            <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="#" target="_blank" rel="noreferrer noopener" aria-label="HTML5 (opens in a new tab)" style={{ fontFamily: 'cursive' }}> PHP</Link>,
+            <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="#" target="_blank" rel="noreferrer noopener" aria-label="HTML5 (opens in a new tab)" style={{ fontFamily: 'cursive' }}> MongoDB</Link>,
+            <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="#" target="_blank" rel="noreferrer noopener" aria-label="HTML5 (opens in a new tab)" style={{ fontFamily: 'cursive' }}> Firebase</Link>,
+            <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="#" target="_blank" rel="noreferrer noopener" aria-label="HTML5 (opens in a new tab)" style={{ fontFamily: 'cursive' }}> Git</Link>,
+            <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="#" target="_blank" rel="noreferrer noopener" aria-label="HTML5 (opens in a new tab)" style={{ fontFamily: 'cursive' }}> GitHub</Link>,
+            <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="#" target="_blank" rel="noreferrer noopener" aria-label="HTML5 (opens in a new tab)" style={{ fontFamily: 'cursive' }}> Figma</Link>,
+            <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="#" target="_blank" rel="noreferrer noopener" aria-label="HTML5 (opens in a new tab)" style={{ fontFamily: 'cursive' }}> Frappe</Link>,
 
             <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="https://wordpress.com/" target="_blank" rel="noreferrer noopener" aria-label="Wordpress (opens in a new tab)"> Wordpress</Link>. and emerging DevOps practices,
             I’ve contributed to projects ranging from interactive dashboards to scalable web components. I take pride in merging modern design principles with functional code to deliver products that leave a lasting impact.</p>
-          <p>When I’m not coding, you’ll often find me strategizing in chess, exploring immersive manga and manhwa worlds, spending quality time with my loved ones, or unlocking the <span className="group/raj lg:cursor-[url('/images/raj/luffy.png'),_pointer] inline-flex lg:font-medium lg:text-slate-200" ><span className="sr-only">Mysteries</span>
+          <p>When I’m not coding, you’ll often find me strategizing in chess, exploring immersive manga and manhwa worlds, spending quality time with my loved ones, or unlocking the <span className="group/raj lg:cursor-[url('/images/raj/luffy.png'),_pointer] inline-flex lg:font-medium lg:text-slate-200" style={{ fontFamily: 'cursive' }}><span className="sr-only">Mysteries</span>
             <span className="group-hover/raj:text-red-400 transition duration-75 group-hover/raj:-translate-y-px delay-[50ms]" aria-hidden="true">M</span>
             <span className="group-hover/raj:text-red-500 transition duration-75 group-hover/raj:-translate-y-px delay-[75ms]" aria-hidden="true">y</span>
             <span className="group-hover/raj:text-red-600 transition duration-75 group-hover/raj:-translate-y-px delay-[100ms]" aria-hidden="true">s</span>
@@ -181,7 +188,7 @@ function Content() {
                   </h3>
                   <>
                     <p className="mt-2 text-sm leading-normal">
-                      <span className="font-semibold text-slate-100">-- Booking Application:</span> <br />
+                      <span className="font-semibold text-slate-100" style={{ fontFamily: 'cursive' }}>-- Booking Application:</span> <br />
                       • Developed a React.js-based booking component to facilitate room and gaming slot reservations, boosting user
                       engagement by 25% within three months. <br />
                       • Implemented a dynamic time-slot visualization feature, ensuring seamless booking experiences and improving
@@ -193,7 +200,7 @@ function Content() {
                     </p>
 
                     <p className="mt-2 text-sm leading-normal">
-                      <span className="font-semibold  text-slate-100">-- Websites:</span> <br />
+                      <span className="font-semibold  text-slate-100" style={{ fontFamily: 'cursive' }}>-- Websites:</span> <br />
                       • Optimized performance, raising Google PageSpeed score from 29 to 64, leading to a 47% increase in traffic.<br />
                       • Utilized GitHub for version control and collaboration, ensuring smooth workflow management across teams.<br />
                       • Conducted regular testing and debugging to enhance functionality and cross-browser compatibility, improving

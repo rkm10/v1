@@ -131,10 +131,16 @@ function Content() {
             <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="#" target="_blank" rel="noreferrer noopener" aria-label="HTML5 (opens in a new tab)" style={{ fontFamily: 'cursive' }}> PHP</Link>,
             <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="#" target="_blank" rel="noreferrer noopener" aria-label="HTML5 (opens in a new tab)" style={{ fontFamily: 'cursive' }}> MongoDB</Link>,
             <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="#" target="_blank" rel="noreferrer noopener" aria-label="HTML5 (opens in a new tab)" style={{ fontFamily: 'cursive' }}> Firebase</Link>,
+            <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="#" target="_blank" rel="noreferrer noopener" aria-label="HTML5 (opens in a new tab)" style={{ fontFamily: 'cursive' }}> Vercel</Link>,
+            <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="#" target="_blank" rel="noreferrer noopener" aria-label="HTML5 (opens in a new tab)" style={{ fontFamily: 'cursive' }}> Supabase</Link>,
+            <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="#" target="_blank" rel="noreferrer noopener" aria-label="HTML5 (opens in a new tab)" style={{ fontFamily: 'cursive' }}> Render.com</Link>,
+            <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="#" target="_blank" rel="noreferrer noopener" aria-label="HTML5 (opens in a new tab)" style={{ fontFamily: 'cursive' }}> Railway</Link>,
             <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="#" target="_blank" rel="noreferrer noopener" aria-label="HTML5 (opens in a new tab)" style={{ fontFamily: 'cursive' }}> Git</Link>,
             <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="#" target="_blank" rel="noreferrer noopener" aria-label="HTML5 (opens in a new tab)" style={{ fontFamily: 'cursive' }}> GitHub</Link>,
             <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="#" target="_blank" rel="noreferrer noopener" aria-label="HTML5 (opens in a new tab)" style={{ fontFamily: 'cursive' }}> Figma</Link>,
             <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="#" target="_blank" rel="noreferrer noopener" aria-label="HTML5 (opens in a new tab)" style={{ fontFamily: 'cursive' }}> Frappe</Link>,
+            <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="#" target="_blank" rel="noreferrer noopener" aria-label="HTML5 (opens in a new tab)" style={{ fontFamily: 'cursive' }}> Aws</Link>,
+            <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="#" target="_blank" rel="noreferrer noopener" aria-label="HTML5 (opens in a new tab)" style={{ fontFamily: 'cursive' }}> S3</Link>,
 
             <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="https://wordpress.com/" target="_blank" rel="noreferrer noopener" aria-label="Wordpress (opens in a new tab)"> Wordpress</Link>. and emerging DevOps practices,
             I’ve contributed to projects ranging from interactive dashboards to scalable web components. I take pride in merging modern design principles with functional code to deliver products that leave a lasting impact.</p>
@@ -155,10 +161,10 @@ function Content() {
       </section>
 
 
-      {/* experience */}
+      {/* Experience Section */}
       <section id="experience" className='mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24' aria-label="Work experience">
         <div className='sticky top-0 z-20 -mx-6 mb-4 w-screen bg-slate-900/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only 
-        lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0'>
+  lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0'>
           <h2 className="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">Experience</h2>
         </div>
 
@@ -168,17 +174,17 @@ function Content() {
             <li className='mb-12'>
               <div className='group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50'>
                 <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block
-               lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
+         lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
                 <header className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2" aria-label="2024 to Present">Oct 2023 — Present </header>
                 <div className="z-10 sm:col-span-6">
                   <h3 className="font-medium leading-snug text-slate-200">
                     <div>
                       <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
                       <Link className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base" href="https://www.noveloffice.in"
-                        target="_blank" rel="noreferrer noopener" aria-label="Senior Frontend Engineer, Accessibility at Klaviyo (opens in a new tab)">
+                        target="_blank" rel="noreferrer noopener" aria-label="Web Developer at Novel Office (opens in a new tab)">
                         <span >Web Developer | <span className="inline-block">Novel Office
                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 
-                          group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true">
+                    group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true">
                             <path fillRule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clipRule="evenodd">
                             </path>
                           </svg>
@@ -200,6 +206,14 @@ function Content() {
                     </p>
 
                     <p className="mt-2 text-sm leading-normal">
+                      <span className="font-semibold  text-slate-100" style={{ fontFamily: 'cursive' }}>-- ChatWidget Development:</span> <br />
+                      • Created a real-time chat widget using React and Socket.IO, enabling instant communication with advanced features. <br />
+                      • Implemented WebSocket technology for low-latency messaging and real-time updates. <br />
+                      • Developed responsive frontend with intuitive user interface and smooth interaction design. <br />
+                      • Integrated backend with Node.js and Express to handle message routing and user authentication. <br />
+                    </p>
+
+                    <p className="mt-2 text-sm leading-normal">
                       <span className="font-semibold  text-slate-100" style={{ fontFamily: 'cursive' }}>-- Websites:</span> <br />
                       • Optimized performance, raising Google PageSpeed score from 29 to 64, leading to a 47% increase in traffic.<br />
                       • Utilized GitHub for version control and collaboration, ensuring smooth workflow management across teams.<br />
@@ -209,158 +223,286 @@ function Content() {
                       management and user interfaces.<br />
                     </p>
                     <ul className="mt-2 flex flex-wrap" aria-label="Technologies used">
-                      <li className="mr-1.5 mt-2">
+                      <li className="mr-2 mt-2">
                         <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">JavaScript</div>
                       </li>
-                      <li className="mr-1.5 mt-2">
+                      <li className="mr-2 mt-2">
                         <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">React</div>
                       </li>
-                      <li className="mr-1.5 mt-2">
+                      <li className="mr-2 mt-2">
                         <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Redux</div>
                       </li>
-                      <li className="mr-1.5 mt-2">
+                      <li className="mr-2 mt-2">
+                        <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Socket.IO</div>
+                      </li>
+                      <li className="mr-2 mt-2">
+                        <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Node.js</div>
+                      </li>
+                      <li className="mr-2 mt-2">
                         <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Css</div>
                       </li>
-                      <li className="mr-1.5 mt-2">
+                      <li className="mr-2 mt-2">
                         <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Html5</div>
                       </li>
-                      <li className="mr-1.5 mt-2">
-                        <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Nodejs</div>
+                      <li className="mr-2 mt-2">
+                        <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Express</div>
                       </li>
-                      <li className="mr-1.5 mt-2">
+                      <li className="mr-2 mt-2">
                         <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Mysql</div>
                       </li>
-                      <li className="mr-1.5 mt-2">
+                      <li className="mr-2 mt-2">
                         <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">RestApi</div>
                       </li>
-                      <li className="mr-1.5 mt-2">
+                      <li className="mr-2 mt-2">
                         <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Wordpress</div>
                       </li>
-                      <li className="mr-1.5 mt-2">
-                        <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Spectra</div>
-                      </li>
-                      <li className="mr-1.5 mt-2">
-                        <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Astra</div>
-                      </li>
-                      <li className="mr-1.5 mt-2">
+                      <li className="mr-2 mt-2">
                         <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Figma</div>
                       </li>
-                      <li className="mr-1.5 mt-2">
+                      <li className="mr-2 mt-2">
                         <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Frappe</div>
                       </li>
-                      <li className="mr-1.5 mt-2">
+                      <li className="mr-2 mt-2">
                         <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Git</div>
                       </li>
                     </ul>
                   </>
                 </div>
-
               </div>
             </li>
-
           </ol>
         </div>
+      </section>
 
-        {/* use this div for other Experience */}
-        <div>
-          <ol className='group/list'>
+      {/* Projects Section */}
+      <section id='projects' className='mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24' aria-label="Projects">
+        <div className='sticky top-0 z-20 -mx-6 mb-4 w-screen bg-slate-900/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto 
+          lg:w-full lg:px-0 lg:py-0 lg:opacity-0 custom-cursor-default-hover'>
+          <h2 className="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">Projects</h2>
+        </div>
+
+        <div className='custom-cursor-default-hover'>
+          <ul className='group/list custom-cursor-default-hover'>
+            {/* Anime Discovery App */}
             <li className='mb-12'>
-              <div className='group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50'>
-                <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block
-               lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
-                <header className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2" aria-label="2024 to Present">2023 — Present</header>
-                <div className="z-10 sm:col-span-6">
-                  <h3 className="font-medium leading-snug text-slate-200">
-                    <div>
-                      <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
-                      <Link className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base" href="https://www.noveloffice.in"
-                        target="_blank" rel="noreferrer noopener" aria-label="Senior Frontend Engineer, Accessibility at Klaviyo (opens in a new tab)">
-                        <span>Web Developer | <span className="inline-block">Novel Office
-                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 
-                          group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true">
+              <div className='group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100
+                 lg:group-hover/list:opacity-50'>
+                <div className='absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 
+          lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg'></div>
+                <div className='z-10 sm:order-2 sm:col-span-6'>
+                  <h3>
+                    <Link
+                      className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base"
+                      href="https://github.com/rkm10/ChatWidget"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      aria-label="ChatWidget Project (opens in a new tab)"
+                    >
+                      <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block custom-cursor-on-hover"></span>
+                      <span>Anime Discovery App - PWA for Anime & Manga Info
+                        <span className="inline-block">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true">
                             <path fillRule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clipRule="evenodd">
                             </path>
                           </svg>
                         </span>
-                        </span>
-                      </Link>
-                    </div>
-                  </h3>
-                  <>
-                    <p className="mt-2 text-sm leading-normal">Build and maintain critical components used to construct Novel Office frontend, across the whole product. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility.
-                    </p>
-                    <ul className="mt-2 flex flex-wrap" aria-label="Technologies used">
-                      <li className="mr-1.5 mt-2">
-                        <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">JavaScript</div>
-                      </li>
-                      <li className="mr-1.5 mt-2">
-                        <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">React</div>
-                      </li>
-                      <li className="mr-1.5 mt-2">
-                        <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Wrodpress</div>
-                      </li>
-                      <li className="mr-1.5 mt-2">
-                        <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Frappe</div>
-                      </li>
-                    </ul>
-                  </>
-                </div>
-
-              </div>
-            </li>
-
-          </ol>
-        </div>
-
-      </section>
-
-
-      {/* Projects */}
-
-      <section id='projects' className='mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24' aria-label="Projects">
-        <div className='sticky top-0 z-20 -mx-6 mb-4 w-screen bg-slate-900/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto 
-        lg:w-full lg:px-0 lg:py-0 lg:opacity-0 custom-cursor-default-hover'>
-          <h2 className="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">Projects</h2>
-        </div>
-
-        {/* dummy project replace with original */}
-        <div className='custom-cursor-default-hover'>
-          <ul className='group/list custom-cursor-default-hover'>
-            <li className='mb-12'>
-              <div className='group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100
-               lg:group-hover/list:opacity-50'>
-                <div className='absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 
-                lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg'></div>
-                <div className='z-10 sm:order-2 sm:col-span-6'>
-                  <h3>
-                    <Link className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base" href="https://github.com/rkm10" target="_blank" rel="noreferrer noopener" aria-label="Build a Spotify Connected App (opens in a new tab)">
-                      <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block custom-cursor-on-hover"></span>
-                      <span>Build a Spotify Connected
-                        <span className="inline-block">App<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true">
-                          <path fillRule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clipRule="evenodd">
-                          </path></svg></span>
                       </span>
                     </Link>
                   </h3>
-                  <p className="mt-2 text-sm leading-normal">Video course that teaches how to build a web app with the Spotify Web API. Topics covered include the principles of REST APIs, user auth flows, Node, Express, React, Styled Components, and more.</p>
+                  <p className="mt-2 text-sm leading-normal">
+                    A Progressive Web App (PWA) built with **Next.js**, **Supabase**, and **React Native**. Features include infinite scrolling, dark mode, and user authentication.
+                  </p>
+                  <ul className="mt-2 flex flex-wrap">
+                    <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Next.js</div></li>
+                    <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Supabase</div></li>
+                    <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">React Native</div></li>
+                  </ul>
                 </div>
-                <Image
-                  alt="Luffy in Gear 5 from One Piece"
-                  loading="lazy"
-                  width={200}
-                  height={48}
-                  decoding="async"
-                  data-nimg="1"
-                  className="aspect-video object-cover rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
-                  src="https://www.dexerto.com/cdn-image/wp-content/uploads/2023/08/16/one-piece-gear-5-luffy.jpeg"
+                <img
+                  alt="Anime Discovery App"
+                  src="/api/placeholder/100/500"
+                  className="aspect-video object-cover rounded border-2 border-slate-200/10 transition sm:order-1 sm:col-span-2 shadow-lg  group-hover:scale-105 sm:translate-y-1"
                 />
               </div>
             </li>
+
+            {/* Real Estate Website */}
+            <li className='mb-12'>
+              <div className='group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100
+                 lg:group-hover/list:opacity-50'>
+                <div className='absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 
+          lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg'></div>
+                <div className='z-10 sm:order-2 sm:col-span-6'>
+                  <h3>
+                    <Link
+                      className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base"
+                      href="https://github.com/rkm10/ChatWidget"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      aria-label="ChatWidget Project (opens in a new tab)"
+                    >
+                      <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block custom-cursor-on-hover"></span>
+                      <span>Real Estate Website - Interactive Property Listings
+                        <span className="inline-block">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true">
+                            <path fillRule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clipRule="evenodd">
+                            </path>
+                          </svg>
+                        </span>
+                      </span>
+                    </Link>
+                  </h3>
+                  <p className="mt-2 text-sm leading-normal">
+                    A real estate platform built with React, Frappe, and AWS. Includes map-based property search, brokers section, and optimized performance.
+                  </p>
+                  <ul className="mt-2 flex flex-wrap">
+                    <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">React</div></li>
+                    <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Frappe</div></li>
+                    <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">AWS</div></li>
+                  </ul>
+                </div>
+                <img
+                  alt="Real Estate Website"
+                  src="/api/placeholder/100/500"
+                  className="aspect-video object-cover rounded border-2 border-slate-200/10 transition sm:order-1 sm:col-span-2 shadow-lg  group-hover:scale-105 sm:translate-y-1"
+                />
+              </div>
+            </li>
+
+
+            {/* Session Tracker */}
+            <li className='mb-12'>
+              <div className='group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100
+                 lg:group-hover/list:opacity-50'>
+                <div className='absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 
+          lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg'></div>
+                <div className='z-10 sm:order-2 sm:col-span-6'>
+                  <h3>
+                    <Link
+                      className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base"
+                      href="https://github.com/rkm10/ChatWidget"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      aria-label="ChatWidget Project (opens in a new tab)"
+                    >
+                      <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block custom-cursor-on-hover"></span>
+                      <span>Session Tracker - Real-Time User Analytics
+                        <span className="inline-block">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true">
+                            <path fillRule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clipRule="evenodd">
+                            </path>
+                          </svg>
+                        </span>
+                      </span>
+                    </Link>
+                  </h3>
+                  <p className="mt-2 text-sm leading-normal">
+                    A session-tracking system that logs **user activity**, **session duration**, and **page interactions** in real-time. Built using **Node.js**, **MongoDB**, and **Socket.io** for real-time updates.
+                  </p>
+                  <ul className="mt-2 flex flex-wrap">
+                    <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">React</div></li>
+                    <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300"></div></li>
+                    <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Amilify</div></li>
+                  </ul>
+                </div>
+                <img
+                  alt="Real Estate Website"
+                  src="/api/placeholder/100/500"
+                  className="aspect-video object-cover rounded border-2 border-slate-200/10 transition sm:order-1 sm:col-span-2 shadow-lg  group-hover:scale-105 sm:translate-y-1"
+                />
+              </div>
+            </li>
+
+            {/* Airbnb Clone */}
+            <li className='mb-12'>
+              <div className='group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100
+                 lg:group-hover/list:opacity-50'>
+                <div className='absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 
+          lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg'></div>
+                <div className='z-10 sm:order-2 sm:col-span-6'>
+                  <h3>
+                    <Link
+                      className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base"
+                      href="https://github.com/rkm10/ChatWidget"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      aria-label="ChatWidget Project (opens in a new tab)"
+                    >
+                      <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block custom-cursor-on-hover"></span>
+                      <span>Airbnb Clone - Frontend Replication with React.js
+                        <span className="inline-block">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true">
+                            <path fillRule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clipRule="evenodd">
+                            </path>
+                          </svg>
+                        </span>
+                      </span>
+                    </Link>
+                  </h3>
+                  <p className="mt-2 text-sm leading-normal">
+                    A **frontend-only** Airbnb clone built using **React.js** and **Material-UI**, featuring a **dynamic search bar**, **property listings with filters**, and an **interactive map** for location-based searches.
+                  </p>
+                  <ul className="mt-2 flex flex-wrap">
+                    <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">React</div></li>
+                    <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300"></div></li>
+                    <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Amilify</div></li>
+                  </ul>
+                </div>
+                <img
+                  alt="Real Estate Website"
+                  src="/api/placeholder/100/500"
+                  className="aspect-video object-cover rounded border-2 border-slate-200/10 transition sm:order-1 sm:col-span-2 shadow-lg  group-hover:scale-105 sm:translate-y-1"
+                />
+              </div>
+            </li>
+
+            {/* CraftCart - E-commerce Website */}
+            <li className='mb-12'>
+              <div className='group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100
+                 lg:group-hover/list:opacity-50'>
+                <div className='absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 
+          lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg'></div>
+                <div className='z-10 sm:order-2 sm:col-span-6'>
+                  <h3>
+                    <Link
+                      className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base"
+                      href="https://github.com/rkm10/ChatWidget"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      aria-label="ChatWidget Project (opens in a new tab)"
+                    >
+                      <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block custom-cursor-on-hover"></span>
+                      <span>CraftCart - Modern E-Commerce Platform
+                        <span className="inline-block">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true">
+                            <path fillRule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clipRule="evenodd">
+                            </path>
+                          </svg>
+                        </span>
+                      </span>
+                    </Link>
+                  </h3>
+                  <p className="mt-2 text-sm leading-normal">
+                    A **React.js** and **Redux-powered** e-commerce platform featuring **dynamic product listings**, **user authentication**, and a **secure checkout flow**. Optimized for both **desktop** and **mobile** users.
+                  </p>
+                  <ul className="mt-2 flex flex-wrap">
+                    <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">React</div></li>
+                    <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Redux</div></li>
+                    <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Material-UI</div></li>
+                    <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Amilify</div></li>
+                  </ul>
+                </div>
+                <img
+                  alt="Real Estate Website"
+                  src="/api/placeholder/100/500"
+                  className="aspect-video object-cover rounded border-2 border-slate-200/10 transition sm:order-1 sm:col-span-2 shadow-lg  group-hover:scale-105 sm:translate-y-1"
+                />
+              </div>
+            </li>
+
           </ul>
-
         </div>
-
       </section>
-    </main>
+    </main >
   )
 }

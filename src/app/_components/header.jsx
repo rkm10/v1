@@ -115,11 +115,11 @@ function Content() {
           <h2 className="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">About</h2>
         </div>
         <div>
-          <p className="mb-4">I’m a versatile developer with a knack for building intuitive, performant, and visually engaging web applications. My approach to development is grounded in creating solutions that are not only technically sound but also user-centered and accessible.</p>
-          <p className="mb-4">Currently, I'm a Front-End Engineer at <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="https://www.noveloffice.in/" target="_blank" rel="noreferrer noopener" aria-label="Novel Office (opens in a new tab)" style={{ fontFamily: 'cursive' }}>Novel Office</Link>,where I specialize in delivering seamless digital experiences. My work includes developing custom features, refining interfaces, and ensuring the highest level of accessibility for users across platforms.</p>
-          <p className="mb-4">With a background that spans a wide range of technologies, including <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="https://react.dev/" target="_blank" rel="noreferrer noopener" aria-label="React (opens in a new tab)" style={{ fontFamily: 'cursive' }}>React</Link>, <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="https://nextjs.org/" target="_blank" rel="noreferrer noopener" aria-label="start-up (opens in a new tab)" style={{ fontFamily: 'cursive' }}>Next.js</Link>,
-            <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="#" target="_blank" rel="noreferrer noopener" aria-label="HTML5 (opens in a new tab)" style={{ fontFamily: 'cursive' }}> Nodejs</Link>,
-            <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="#" target="_blank" rel="noreferrer noopener" aria-label="HTML5 (opens in a new tab)" style={{ fontFamily: 'cursive' }}> Expressjs</Link>,
+          <p className="mb-4">I'm a passionate front-end developer who crafts elegant, high-performance web applications. My development philosophy centers on creating solutions that balance technical excellence with exceptional user experience and accessibility.</p>
+          <p className="mb-4">As a Front-End Engineer at <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="https://www.noveloffice.in/" target="_blank" rel="noreferrer noopener" aria-label="Novel Office (opens in a new tab)" style={{ fontFamily: 'cursive' }}>Novel Office</Link>, I focus on building seamless digital experiences through custom feature development, interface refinement, and cross-platform accessibility optimization.</p>
+          <p className="mb-4">My technical expertise encompasses modern web technologies including <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="https://react.dev/" target="_blank" rel="noreferrer noopener" aria-label="React (opens in a new tab)" style={{ fontFamily: 'cursive' }}>React</Link>, <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="https://nextjs.org/" target="_blank" rel="noreferrer noopener" aria-label="start-up (opens in a new tab)" style={{ fontFamily: 'cursive' }}>Next.js</Link>,
+            <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="#" target="_blank" rel="noreferrer noopener" aria-label="HTML5 (opens in a new tab)" style={{ fontFamily: 'cursive' }}> Node.js</Link>,
+            <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="#" target="_blank" rel="noreferrer noopener" aria-label="HTML5 (opens in a new tab)" style={{ fontFamily: 'cursive' }}> Express.js</Link>,
             <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="#" target="_blank" rel="noreferrer noopener" aria-label="HTML5 (opens in a new tab)" style={{ fontFamily: 'cursive' }}> JavaScript</Link>,
             <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="#" target="_blank" rel="noreferrer noopener" aria-label="HTML5 (opens in a new tab)" style={{ fontFamily: 'cursive' }}> HTML5</Link>,
             <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="https://www.css3.info/" target="_blank" rel="noreferrer noopener" aria-label="CSS3 (opens in a new tab)" style={{ fontFamily: 'cursive' }}> CSS3</Link>,
@@ -136,12 +136,10 @@ function Content() {
             <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="#" target="_blank" rel="noreferrer noopener" aria-label="HTML5 (opens in a new tab)" style={{ fontFamily: 'cursive' }}> GitHub</Link>,
             <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="#" target="_blank" rel="noreferrer noopener" aria-label="HTML5 (opens in a new tab)" style={{ fontFamily: 'cursive' }}> Figma</Link>,
             <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="#" target="_blank" rel="noreferrer noopener" aria-label="HTML5 (opens in a new tab)" style={{ fontFamily: 'cursive' }}> Frappe</Link>,
-            <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="#" target="_blank" rel="noreferrer noopener" aria-label="HTML5 (opens in a new tab)" style={{ fontFamily: 'cursive' }}> Aws</Link>,
+            <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="#" target="_blank" rel="noreferrer noopener" aria-label="HTML5 (opens in a new tab)" style={{ fontFamily: 'cursive' }}> AWS</Link>,
             <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="#" target="_blank" rel="noreferrer noopener" aria-label="HTML5 (opens in a new tab)" style={{ fontFamily: 'cursive' }}> S3</Link>,
-
-            <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="https://wordpress.com/" target="_blank" rel="noreferrer noopener" aria-label="Wordpress (opens in a new tab)"> Wordpress</Link>. and emerging DevOps practices,
-            I’ve contributed to projects ranging from interactive dashboards to scalable web components. I take pride in merging modern design principles with functional code to deliver products that leave a lasting impact.</p>
-          <p>When I’m not coding, you’ll often find me strategizing in chess, exploring immersive manga and manhwa worlds, spending quality time with my loved ones, or unlocking the <span className="group/raj lg:cursor-[url('/images/raj/luffy.png'),_pointer] inline-flex lg:font-medium lg:text-slate-200" style={{ fontFamily: 'cursive' }}><span className="sr-only">Mysteries</span>
+            <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="https://wordpress.com/" target="_blank" rel="noreferrer noopener" aria-label="Wordpress (opens in a new tab)"> WordPress</Link>, and DevOps practices. I've successfully delivered projects ranging from interactive dashboards to scalable web components, combining modern design principles with robust code to create impactful digital solutions.</p>
+          <p>Beyond coding, I enjoy strategic chess matches, diving into captivating manga and manhwa stories, cherishing moments with loved ones, and embarking on adventures in the <span className="group/raj lg:cursor-[url('/images/raj/luffy.png'),_pointer] inline-flex lg:font-medium lg:text-slate-200" style={{ fontFamily: 'cursive' }}><span className="sr-only">Mysteries</span>
             <span className="group-hover/raj:text-red-400 transition duration-75 group-hover/raj:-translate-y-px delay-[50ms]" aria-hidden="true">M</span>
             <span className="group-hover/raj:text-red-500 transition duration-75 group-hover/raj:-translate-y-px delay-[75ms]" aria-hidden="true">y</span>
             <span className="group-hover/raj:text-red-600 transition duration-75 group-hover/raj:-translate-y-px delay-[100ms]" aria-hidden="true">s</span>
@@ -151,7 +149,7 @@ function Content() {
             <span className="group-hover/raj:text-cyan-400 transition duration-75 group-hover/raj:-translate-y-px delay-[200ms]" aria-hidden="true">i</span>
             <span className="group-hover/raj:text-sky-400 transition duration-75 group-hover/raj:-translate-y-px delay-[225ms]" aria-hidden="true">e</span>
             <span className="group-hover/raj:text-blue-400 transition duration-75 group-hover/raj:-translate-y-px delay-[250ms]" aria-hidden="true">s</span> &nbsp;</span>
-            of Hyrule in my downtime.
+            of Hyrule.
           </p>
         </div>
 
@@ -179,7 +177,8 @@ function Content() {
                       <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
                       <Link className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base" href="https://www.noveloffice.in"
                         target="_blank" rel="noreferrer noopener" aria-label="Web Developer at Novel Office (opens in a new tab)">
-                        <span >Web Developer | <span className="inline-block">Novel Office
+                        <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block custom-cursor-on-hover"></span>
+                        <span>Web Developer | <span className="inline-block">Novel Office
                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 
                     group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true">
                             <path fillRule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clipRule="evenodd">
@@ -271,59 +270,105 @@ function Content() {
         </div>
       </section>
 
-      <section id='freelancing' className='mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24' aria-label="Freelancing">
-        <div className='sticky top-0 z-20 -mx-6 mb-4 w-screen bg-slate-900/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto 
-          lg:w-full lg:px-0 lg:py-0 lg:opacity-0 custom-cursor-default-hover'>
+      {/* Freelancing Section */}
+      <section id="freelancing" className='mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24' aria-label="Freelancing experience">
+        <div className='sticky top-0 z-20 -mx-6 mb-4 w-screen bg-slate-900/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only 
+  lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0'>
           <h2 className="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">Freelancing</h2>
         </div>
 
-        <div className='custom-cursor-default-hover'>
-          <ul className='group/list custom-cursor-default-hover'>
-          {/* Real Estate Website */}
-          <li className='mb-12'>
-              <div className='group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100
-                 lg:group-hover/list:opacity-50'>
-                <div className='absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 
-          lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg'></div>
-                <div className='z-10 sm:order-2 sm:col-span-6'>
-                  <h3>
-                    <Link
-                      className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base"
-                      href="https://github.com/rkm10/ChatWidget"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      aria-label="ChatWidget Project (opens in a new tab)"
-                    >
-                      <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block custom-cursor-on-hover"></span>
-                      <span>Real Estate Website - Interactive Property Listings
-                        <span className="inline-block">
-                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true">
+        <div>
+          <ol className='group/list'>
+            <li className='mb-12'>
+              <div className='group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50'>
+                <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block
+         lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
+                <header className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2" aria-label="2024 to Present"> </header>
+                <div className="z-10 sm:col-span-6">
+                  <h3 className="font-medium leading-snug text-slate-200">
+                    <div>
+                      <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
+                      <Link className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base" href="https://spreetime.vercel.app/"
+                        target="_blank" rel="noreferrer noopener" aria-label="Freelance Web Developer at SpreeTime (opens in a new tab)">
+                        <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block custom-cursor-on-hover"></span>
+                        <span>Freelance Web Developer | <span>SpreeTime Tournament Management
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 
+                    group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true">
                             <path fillRule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clipRule="evenodd">
                             </path>
                           </svg>
-                        </span>
-                      </span>
-                    </Link>
+                        </span></span>
+                      </Link>
+                    </div>
                   </h3>
-                  <p className="mt-2 text-sm leading-normal">
-                    A real estate platform built with React, Frappe, and AWS. Includes map-based property search, brokers section, and optimized performance.
-                  </p>
-                  <ul className="mt-2 flex flex-wrap">
-                    <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">React</div></li>
-                    <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Frappe</div></li>
-                    <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">AWS</div></li>
-                  </ul>
+                  <>
+                    <p className="mt-2 text-sm leading-normal">
+                      <span className="font-semibold text-slate-100" style={{ fontFamily: 'cursive' }}>-- Tournament Management Platform:</span> <br />
+                      • Developed a full-stack sports tournament management application using React.js and Firebase, enabling real-time player registration, pool creation, and knockout bracket management.<br />
+                      • Engineered a dynamic pool and knockout bracket system, automating match scheduling and winner advancement, reducing manual admin work by over 60%.<br />
+                      • Implemented live match tracking and real-time updates for both administrators and public viewers, enhancing user engagement and transparency.<br />
+                      • Designed responsive, mobile-friendly interfaces for seamless access across devices, improving user experience for both organizers and participants.<br />
+                      • Integrated CSV/Excel import functionality for bulk player registration, streamlining onboarding for large tournaments.<br />
+                      • Built robust admin and referee dashboards with features for match editing, court assignment, and player attendance tracking.<br />
+                      • Utilized Firebase Firestore for real-time data synchronization, ensuring instant updates across all users and devices.<br />
+                      • Developed advanced search and filtering for live and upcoming matches, allowing users to quickly find relevant games and information.<br />
+                      • Automated player name updates across all pool matches, ensuring data consistency after edits.<br />
+                      • Implemented secure authentication and role-based access for admins, referees, and public users.<br />
+                    </p>
+
+                    <p className="mt-2 text-sm leading-normal">
+                      <span className="font-semibold text-slate-100" style={{ fontFamily: 'cursive' }}>-- Client Feedback & Impact:</span> <br />
+                      • Received highly positive feedback from the client for delivering a reliable, user-friendly, and scalable solution.<br />
+                      • The client expressed strong satisfaction and confirmed plans to expand the application to a larger stage, recognizing its potential for broader adoption and future enhancements.<br />
+                    </p>
+
+                    <p className="mt-2 text-sm leading-normal">
+                      <span className="font-semibold text-slate-100" style={{ fontFamily: 'cursive' }}>-- Results:</span> <br />
+                      • Delivered a scalable, maintainable solution for sports event organizers, supporting hundreds of concurrent users with real-time updates.<br />
+                      • Recognized for reducing operational overhead and significantly improving the tournament experience for both admins and participants.<br />
+                    </p>
+
+                    <ul className="mt-2 flex flex-wrap" aria-label="Technologies used">
+                      <li className="mr-2 mt-2">
+                        <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">React.js</div>
+                      </li>
+                      <li className="mr-2 mt-2">
+                        <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Firebase</div>
+                      </li>
+                      <li className="mr-2 mt-2">
+                        <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Tailwind CSS</div>
+                      </li>
+                      <li className="mr-2 mt-2">
+                        <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Vite</div>
+                      </li>
+                      <li className="mr-2 mt-2">
+                        <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">JavaScript</div>
+                      </li>
+                      <li className="mr-2 mt-2">
+                        <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Real-time Data</div>
+                      </li>
+                      <li className="mr-2 mt-2">
+                        <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Responsive Design</div>
+                      </li>
+                      <li className="mr-2 mt-2">
+                        <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Admin Dashboard</div>
+                      </li>
+                      <li className="mr-2 mt-2">
+                        <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Git</div>
+                      </li>
+                      <li className="mr-2 mt-2">
+                        <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">UX/UI</div>
+                      </li>
+                      <li className="mr-2 mt-2">
+                        <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">Vercel</div>
+                      </li>
+                    </ul>
+                  </>
                 </div>
-                <img
-                  alt="Real Estate Website"
-                  src="/api/placeholder/100/500"
-                  className="aspect-video object-cover rounded border-2 border-slate-200/10 transition sm:order-1 sm:col-span-2 shadow-lg  group-hover:scale-105 sm:translate-y-1"
-                />
               </div>
             </li>
-          </ul>
+          </ol>
         </div>
-
       </section>
 
       {/* Projects Section */}
@@ -348,10 +393,10 @@ function Content() {
                       href="https://luzoroffy.vercel.app/"
                       target="_blank"
                       rel="noreferrer noopener"
-                      aria-label="ChatWidget Project (opens in a new tab)"
+                      aria-label="Luzoroffy Project (opens in a new tab)"
                     >
                       <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block custom-cursor-on-hover"></span>
-                      <span>Luzoroffy - Anime Discovery App
+                      <span>Luzoroffy - Anime Information Hub
                         <span className="inline-block">
                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true">
                             <path fillRule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clipRule="evenodd">
@@ -362,26 +407,26 @@ function Content() {
                     </Link>
                   </h3>
                   <p className="mt-2 text-sm leading-normal">
-                    A Progressive Web App (PWA) built with **Next.js**, **Supabase**, and **React Native**. Features include infinite scrolling, dark mode, and user authentication.
+                    A comprehensive anime information website built with Next.js 14, featuring a sleek dark mode interface, infinite scrolling, and real-time updates. The platform provides detailed anime information, character profiles, episode guides, and user-friendly navigation for anime enthusiasts.
                   </p>
                   <ul className="mt-2 flex flex-wrap">
-                    <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Next.js</div></li>
-                    <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Supabase</div></li>
-                    <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">React Native</div></li>
+                    <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Next.js 14</div></li>
+                    <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Tailwind CSS</div></li>
+                    <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Shadcn UI</div></li>
+                    <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Framer Motion</div></li>
+                    <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Vercel</div></li>
+                    <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">API Integration</div></li>
                   </ul>
                 </div>
                 <img
-                  alt="Anime Discovery App"
+                  alt="Luzoroffy Anime Streaming Platform"
                   src="../images/raj/luzororffy-screenshot.webp"
-                  className="aspect-video object-cover rounded border-2 border-slate-200/10 transition sm:order-1 sm:col-span-2 shadow-lg  group-hover:scale-105 sm:translate-y-1"
+                  className="aspect-video object-cover rounded border-2 border-slate-200/10 transition sm:order-1 sm:col-span-2 shadow-lg group-hover:scale-105 sm:translate-y-1"
                 />
               </div>
             </li>
 
-            
-
-
-            {/* Session Tracker */}
+            {/* Break Reminder */}
             <li className='mb-12'>
               <div className='group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100
                  lg:group-hover/list:opacity-50'>
@@ -391,13 +436,13 @@ function Content() {
                   <h3>
                     <Link
                       className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base"
-                      href="https://github.com/rkm10/ChatWidget"
+                      href="https://break-remainder.vercel.app/"
                       target="_blank"
                       rel="noreferrer noopener"
-                      aria-label="ChatWidget Project (opens in a new tab)"
+                      aria-label="Break Reminder Project (opens in a new tab)"
                     >
                       <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block custom-cursor-on-hover"></span>
-                      <span>Session Tracker - Real-Time User Analytics
+                      <span>Break Reminder - Productivity Timer
                         <span className="inline-block">
                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true">
                             <path fillRule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clipRule="evenodd">
@@ -408,18 +453,20 @@ function Content() {
                     </Link>
                   </h3>
                   <p className="mt-2 text-sm leading-normal">
-                    A session-tracking system that logs **user activity**, **session duration**, and **page interactions** in real-time. Built using **Node.js**, **MongoDB**, and **Socket.io** for real-time updates.
+                    A productivity timer application built with Next.js 14, featuring customizable work and break intervals, task tracking, and a clean, minimalist interface. The app helps users maintain focus and prevent burnout by implementing the Pomodoro technique with modern design principles.
                   </p>
                   <ul className="mt-2 flex flex-wrap">
-                    <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">React</div></li>
-                    <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300"></div></li>
-                    <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Amilify</div></li>
+                    <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Next.js 14</div></li>
+                    <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Tailwind CSS</div></li>
+                    <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Shadcn UI</div></li>
+                    <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Vercel</div></li>
+                    <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Local Storage</div></li>
                   </ul>
                 </div>
                 <img
-                  alt="Real Estate Website"
+                  alt="Break Reminder Productivity Timer"
                   src="../images/raj/breakreminder-screenshot.webp"
-                  className="aspect-video object-cover rounded border-2 border-slate-200/10 transition sm:order-1 sm:col-span-2 shadow-lg  group-hover:scale-105 sm:translate-y-1"
+                  className="aspect-video object-cover rounded border-2 border-slate-200/10 transition sm:order-1 sm:col-span-2 shadow-lg group-hover:scale-105 sm:translate-y-1"
                 />
               </div>
             </li>
@@ -437,10 +484,10 @@ function Content() {
                       href="https://my-airbnb-clone-raj.vercel.app/"
                       target="_blank"
                       rel="noreferrer noopener"
-                      aria-label="ChatWidget Project (opens in a new tab)"
+                      aria-label="Airbnb Clone Project (opens in a new tab)"
                     >
                       <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block custom-cursor-on-hover"></span>
-                      <span>Airbnb Clone - Frontend Replication with React.js
+                      <span>Airbnb Clone - Modern Property Rental Platform
                         <span className="inline-block">
                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true">
                             <path fillRule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clipRule="evenodd">
@@ -451,24 +498,25 @@ function Content() {
                     </Link>
                   </h3>
                   <p className="mt-2 text-sm leading-normal">
-                    A **frontend-only** Airbnb clone built using **React.js** and **Material-UI**, featuring a **dynamic search bar**, **property listings with filters**, and an **interactive map** for location-based searches.
+                    A modern Airbnb clone built with Next.js 14, featuring a responsive design, interactive property listings, and advanced search functionality. The platform includes user authentication, property filtering, and a clean, intuitive interface for browsing and booking accommodations.
                   </p>
                   <ul className="mt-2 flex flex-wrap">
-                    <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">React</div></li>
-                    <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300"></div></li>
-                    <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Amilify</div></li>
+                    <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Next.js 14</div></li>
+                    <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Tailwind CSS</div></li>
+                    <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Shadcn UI</div></li>
+                    <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Vercel</div></li>
                   </ul>
                 </div>
                 <img
-                  alt="Real Estate Website"
+                  alt="Airbnb Clone Property Rental Platform"
                   src="../images/raj/airbnb-screenshot.webp"
-                  className="aspect-video object-cover rounded border-2 border-slate-200/10 transition sm:order-1 sm:col-span-2 shadow-lg  group-hover:scale-105 sm:translate-y-1"
+                  className="aspect-video object-cover rounded border-2 border-slate-200/10 transition sm:order-1 sm:col-span-2 shadow-lg group-hover:scale-105 sm:translate-y-1"
                 />
               </div>
             </li>
 
             {/* CraftCart - E-commerce Website */}
-            <li className='mb-12'>
+            {/* <li className='mb-12'>
               <div className='group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100
                  lg:group-hover/list:opacity-50'>
                 <div className='absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 
@@ -509,7 +557,7 @@ function Content() {
                   className="aspect-video object-cover rounded border-2 border-slate-200/10 transition sm:order-1 sm:col-span-2 shadow-lg  group-hover:scale-105 sm:translate-y-1"
                 />
               </div>
-            </li>
+            </li> */}
 
           </ul>
         </div>

@@ -115,9 +115,9 @@ function Content() {
           <h2 className="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">About</h2>
         </div>
         <div>
-          <p className="mb-4">I'm a passionate front-end developer who crafts elegant, high-performance web applications. My development philosophy centers on creating solutions that balance technical excellence with exceptional user experience and accessibility.</p>
+          <p className="mb-4">Experienced Front-End Developer with over 3.5 years of experience in building high-performance, scalable web applications using React.js, Next.js, and modern web technologies. Proven expertise in crafting responsive interfaces, improving application performance, and integrating RESTful APIs.</p>
           <p className="mb-4">As a Front-End Engineer at <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="https://www.noveloffice.in/" target="_blank" rel="noreferrer noopener" aria-label="Novel Office (opens in a new tab)" style={{ fontFamily: 'cursive' }}>Novel Office</Link>, I focus on building seamless digital experiences through custom feature development, interface refinement, and cross-platform accessibility optimization.</p>
-          <p className="mb-4">My technical expertise encompasses modern web technologies including <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="https://react.dev/" target="_blank" rel="noreferrer noopener" aria-label="React (opens in a new tab)" style={{ fontFamily: 'cursive' }}>React</Link>, <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="https://nextjs.org/" target="_blank" rel="noreferrer noopener" aria-label="start-up (opens in a new tab)" style={{ fontFamily: 'cursive' }}>Next.js</Link>,
+          <p className="mb-4">Adept at both solo and collaborative environments with freelance and corporate experience. Passionate about clean code, real-time applications, and user-first design. My technical expertise encompasses modern web technologies including <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="https://react.dev/" target="_blank" rel="noreferrer noopener" aria-label="React (opens in a new tab)" style={{ fontFamily: 'cursive' }}>React</Link>, <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="https://nextjs.org/" target="_blank" rel="noreferrer noopener" aria-label="start-up (opens in a new tab)" style={{ fontFamily: 'cursive' }}>Next.js</Link>,
             <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="#" target="_blank" rel="noreferrer noopener" aria-label="HTML5 (opens in a new tab)" style={{ fontFamily: 'cursive' }}> Node.js</Link>,
             <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="#" target="_blank" rel="noreferrer noopener" aria-label="HTML5 (opens in a new tab)" style={{ fontFamily: 'cursive' }}> Express.js</Link>,
             <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="#" target="_blank" rel="noreferrer noopener" aria-label="HTML5 (opens in a new tab)" style={{ fontFamily: 'cursive' }}> JavaScript</Link>,
@@ -138,7 +138,7 @@ function Content() {
             <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="#" target="_blank" rel="noreferrer noopener" aria-label="HTML5 (opens in a new tab)" style={{ fontFamily: 'cursive' }}> Frappe</Link>,
             <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="#" target="_blank" rel="noreferrer noopener" aria-label="HTML5 (opens in a new tab)" style={{ fontFamily: 'cursive' }}> AWS</Link>,
             <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="#" target="_blank" rel="noreferrer noopener" aria-label="HTML5 (opens in a new tab)" style={{ fontFamily: 'cursive' }}> S3</Link>,
-            <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="https://wordpress.com/" target="_blank" rel="noreferrer noopener" aria-label="Wordpress (opens in a new tab)"> WordPress</Link>, and DevOps practices. I've successfully delivered projects ranging from interactive dashboards to scalable web components, combining modern design principles with robust code to create impactful digital solutions.</p>
+            <Link className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="https://wordpress.com/" target="_blank" rel="noreferrer noopener" aria-label="Wordpress (opens in a new tab)"> WordPress</Link>, and DevOps practices.</p>
           <p>Beyond coding, I enjoy strategic chess matches, diving into captivating manga and manhwa stories, cherishing moments with loved ones, and embarking on adventures in the <span className="group/raj lg:cursor-[url('/images/raj/luffy.png'),_pointer] inline-flex lg:font-medium lg:text-slate-200" style={{ fontFamily: 'cursive' }}><span className="sr-only">Mysteries</span>
             <span className="group-hover/raj:text-red-400 transition duration-75 group-hover/raj:-translate-y-px delay-[50ms]" aria-hidden="true">M</span>
             <span className="group-hover/raj:text-red-500 transition duration-75 group-hover/raj:-translate-y-px delay-[75ms]" aria-hidden="true">y</span>
@@ -283,7 +283,7 @@ function Content() {
               <div className='group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50'>
                 <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block
          lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
-                <header className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2" aria-label="2024 to Present"> </header>
+                <header className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2" aria-label="2021 to Present">Dec 2021 - Present</header>
                 <div className="z-10 sm:col-span-6">
                   <h3 className="font-medium leading-snug text-slate-200">
                     <div>
@@ -459,7 +459,7 @@ function Content() {
                     <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Next.js 14</div></li>
                     <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Tailwind CSS</div></li>
                     <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Shadcn UI</div></li>
-                    <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Vercel</div></li>
+                    <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Vite</div></li>
                     <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Local Storage</div></li>
                   </ul>
                 </div>
@@ -504,7 +504,7 @@ function Content() {
                     <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Next.js 14</div></li>
                     <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Tailwind CSS</div></li>
                     <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Shadcn UI</div></li>
-                    <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Vercel</div></li>
+                    <li className="mr-1.5 mt-2"><div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Vite</div></li>
                   </ul>
                 </div>
                 <img
